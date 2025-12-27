@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Styling & JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Advanced Styling & JavaScript</h1>
+        <p>Responsive Design | Image Carousel | API Fetch</p>
+    </header>
+
+    <!-- Image Carousel Section -->
+    <section class="carousel-section">
+        <h2>Image Carousel</h2>
+        <div class="carousel">
+            <img id="carouselImage" src="https://picsum.photos/600/300?random=1" alt="carousel">
+            <div class="buttons">
+                <button onclick="prevImage()">Previous</button>
+                <button onclick="nextImage()">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- API Fetch Section -->
+    <section class="api-section">
+        <h2>Random Joke (API Fetch)</h2>
+        <button onclick="getJoke()">Get Joke</button>
+        <p id="jokeText">Click the button to load a joke</p>
+    </section>
+
+    <footer>
+        <p>Task-3 | Advanced Styling and JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
